@@ -1,0 +1,154 @@
+//The only real functioning debug for the PY32 is pyocd or jlink with a compatible probe (py32 is fussy about probes).
+//probe-rs doesn't work great. external doesn't work great
+//
+//https://github.com/Marus/cortex-debug/blob/master/debug_attributes.md
+{
+	"configurations": [
+		{
+			"name": "Debug (probe_rs w/RTT)",
+			"type": "probe-rs-debug",
+			"request": "launch",
+			// "probe": "VID:PID:<Serial>",
+			"preLaunchTask": "${defaultBuildTask}",
+			"flashingConfig": {
+				"flashingEnabled": true,
+				// "haltAfterReset": true,
+			},
+			"chip": "PY32F030x6",
+			"connectUnderReset": false,
+			"wireProtocol": "Swd",
+			//"runToEntryPoint": "Reset_Handler", // Reset_Handler will break on the very first instruction. SystemInit will break just before default clocks are configured.
+			//does not work with probe-rs. Insert an asm("bkpt #0") in startup.s or SystemInit
+			//"stopOnEntry": true,
+			//"stopAtEntry": true,
+			"coreConfigs": [
+				{
+					"programBinary": "${workspaceFolder}/Build/example-blink.elf",
+					"svdFile": "${workspaceFolder}/Misc/SVD/py32f030xx.svd",
+					"rttEnabled": false,
+					"rttChannelFormats": [
+						{
+							"channelNumber": 0,
+							// Format RTT data as String data
+							"dataFormat": "String",
+							// Include host-side timestamps for every line of data transferred from the target RTT output
+							"showTimestamps": true
+						},
+						{
+							"channelNumber": 1,
+							// Treat data as raw binary data, and do not format in any way
+							"dataFormat": "BinaryLE"
+						}
+					]
+				}
+			],
+			"env": {
+				//!MODIFY (or remove)
+				// If you set this variable, check the VSCode console log window for the location of the log file.
+				//"RUST_LOG": "info"
+			},
+			// Info, Debug
+			"consoleLogLevel": "Info"
+		},
+		{
+			"name": "Debug (JLink)",
+			"cwd": "${workspaceFolder}",
+			"executable": "${workspaceFolder}/Build/example-blink.elf",
+			"armToolchainPath": "/usr/bin/",
+			"toolchainPrefix": "arm-none-eabi",
+			"gdbPath": "gdb-multiarch",
+			"request": "launch",
+			"type": "cortex-debug",
+			"runToEntryPoint": "main",
+			"showDevDebugOutput": "none",
+			"servertype": "jlink",
+			"device": "PY32F030x6",
+			//"cmsisPack": "${workspaceFolder}/Misc/HKMicroChip.HK32F030xMxx_DFP.1.0.17.pack",
+			"interface": "swd",
+			"preLaunchTask": "${defaultBuildTask}",
+			"svdFile": "${workspaceFolder}/Misc/SVD/py32f030xx.svd",
+			"preRestartCommands": [
+				"load" // WIP - how to load a new binary? - this should work. workign with pyocd at least
+			],
+		},
+		/*{
+			"name": "Debug (external probe-rs)", // probe-rs gdb --chip py32f030x8 --reset-halt --allow-erase-all
+			"cwd": "${workspaceFolder}",
+			"executable": "${workspaceFolder}/Build/example-blink.elf",
+			"armToolchainPath": "/usr/bin/",
+			"toolchainPrefix": "arm-none-eabi",
+			"gdbPath": "gdb-multiarch",
+			"request": "launch",
+			"type": "cortex-debug",
+			"runToEntryPoint": "main",
+			"showDevDebugOutput": "none",
+			"servertype": "external",
+			"gdbTarget": "localhost:1337",
+			"device": "PY32F030x6",
+			//"cmsisPack": "${workspaceFolder}/Misc/HKMicroChip.HK32F030xMxx_DFP.1.0.17.pack",
+			"interface": "swd",
+			"preLaunchTask": "${defaultBuildTask}",
+			"svdFile": "${workspaceFolder}/Misc/SVD/py32f030xx.svd",
+			"overrideLaunchCommands": [ //probe-rs gdb does not support 'load'. Flash first!
+				"set arch arm",
+				"set endian little",
+				"mon reset halt"
+			],
+			"preRestartCommands": [
+				"load" // probe-rs gdb does not support 'load'. Flash first!
+			],
+		},*/
+		/*{
+			"name": "Debug (OpenOCD)", //no opencod for py32
+			"cwd": "${workspaceRoot}",
+			"executable": "${workspaceFolder}/Build/example-blink.elf",
+			"armToolchainPath": "/usr/bin/",
+			"toolchainPrefix": "arm-none-eabi",
+			"gdbPath": "gdb-multiarch",
+			"request": "launch",
+			"type": "cortex-debug",
+			"servertype": "openocd",
+			"interface": "swd",
+			"preLaunchTask": "${defaultBuildTask}",
+			"device": "PY32F030x",
+			// "runToEntryPoint": "main",
+			"svdFile": "${workspaceFolder}/Misc/SVD/py32f030xx.svd",
+			"configFiles": [
+				"interface/stlink.cfg",
+				"target/stm32f0x.cfg"
+			],
+			"preLaunchCommands": [
+				"monitor halt",
+				"monitor sleep 200"
+			],
+			"postLaunchCommands": [
+				"monitor halt",
+				"monitor sleep 200"
+			]
+		},*/
+		{
+			"name": "Debug (PyOCD)",
+			"cwd": "${workspaceFolder}",
+			"executable": "${workspaceFolder}/Build/example-blink.elf",
+			"armToolchainPath": "/usr/bin/",
+			"toolchainPrefix": "arm-none-eabi",
+			"gdbPath": "gdb-multiarch",
+			//"debuggerArgs": "Additional arguments to pass to GDB command line",
+			//"preRestartCommands": "Additional GDB Commands to be executed at the beginning of the restart sequence (after interrupting execution).",
+			"request": "launch",
+			"type": "cortex-debug",
+			"runToEntryPoint": "Reset_Handler", // Reset_Handler will break on the very first instruction. SystemInit will break just before default clocks are configured.
+			"showDevDebugOutput": "none",
+			"servertype": "pyocd",
+			//"serverArgs": "Additional (pyocd) arguments to pass to GDB Server command line",
+			"targetId": "PY32F030x6",
+			"interface": "swd",
+			"preLaunchTask": "${defaultBuildTask}",
+			//"preLaunchTask": "build, download",
+			"svdFile": "${workspaceFolder}/Misc/SVD/py32f030xx.svd",
+			"preRestartCommands": [
+				"load" // loads new binary
+			],
+		}
+	]
+}

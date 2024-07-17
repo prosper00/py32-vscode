@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "stdint.h": "c",
+        "usart.h": "c"
+    },
+    "editor.fontSize": 12,
+    "cmake.configureOnOpen": false
+}
