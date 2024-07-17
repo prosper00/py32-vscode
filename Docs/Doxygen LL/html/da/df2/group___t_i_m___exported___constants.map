@@ -1,0 +1,49 @@
+<map id="TIM Exported Constants" name="TIM Exported Constants">
+<area shape="rect" id="node1" href="$da/d81/group___channel___c_c___state.html" title=" " alt="" coords="347,5,511,45"/>
+<area shape="rect" id="node2" href="$de/d28/group___t_i_m.html" title="TIM HAL module driver." alt="" coords="5,1121,52,1146"/>
+<area shape="rect" id="node22" title=" " alt="" coords="100,1121,277,1146"/>
+<area shape="rect" id="node3" href="$de/d41/group___t_i_m___a_o_e___bit___set___reset.html" title=" " alt="" coords="346,69,511,109"/>
+<area shape="rect" id="node4" href="$d8/d65/group___t_i_m___auto_reload_preload.html" title=" " alt="" coords="337,134,520,159"/>
+<area shape="rect" id="node5" href="$d4/df8/group___t_i_m___break___input__enable__disable.html" title=" " alt="" coords="342,183,515,209"/>
+<area shape="rect" id="node6" href="$dd/d4c/group___t_i_m___break___polarity.html" title=" " alt="" coords="339,233,518,258"/>
+<area shape="rect" id="node7" href="$da/d81/group___t_i_m___channel.html" title=" " alt="" coords="377,282,480,307"/>
+<area shape="rect" id="node8" href="$d5/dbd/group___t_i_m___clear_input___polarity.html" title=" " alt="" coords="341,331,516,357"/>
+<area shape="rect" id="node9" href="$d4/d50/group___t_i_m___clear_input___prescaler.html" title=" " alt="" coords="336,381,521,406"/>
+<area shape="rect" id="node10" href="$d2/dd2/group___t_i_m___clear_input___source.html" title=" " alt="" coords="344,430,513,455"/>
+<area shape="rect" id="node11" href="$d3/d3d/group___t_i_m___clock_division.html" title=" " alt="" coords="357,479,500,505"/>
+<area shape="rect" id="node12" href="$d0/d73/group___t_i_m___clock___polarity.html" title=" " alt="" coords="359,529,499,554"/>
+<area shape="rect" id="node13" href="$d8/d99/group___t_i_m___clock___prescaler.html" title=" " alt="" coords="353,578,504,603"/>
+<area shape="rect" id="node14" href="$d6/dd1/group___t_i_m___clock___source.html" title=" " alt="" coords="361,627,496,653"/>
+<area shape="rect" id="node15" href="$d5/d60/group___t_i_m___commutation___source.html" title=" " alt="" coords="335,677,522,702"/>
+<area shape="rect" id="node16" href="$dd/d74/group___t_i_m___counter___mode.html" title=" " alt="" coords="358,726,499,751"/>
+<area shape="rect" id="node17" href="$d6/d12/group___t_i_m___e_t_r___polarity.html" title=" " alt="" coords="364,775,493,801"/>
+<area shape="rect" id="node18" href="$dd/df0/group___t_i_m___e_t_r___prescaler.html" title=" " alt="" coords="359,825,498,850"/>
+<area shape="rect" id="node19" href="$de/d1b/group___t_i_m___encoder___input___polarity.html" title=" " alt="" coords="332,874,525,899"/>
+<area shape="rect" id="node20" href="$d4/d99/group___t_i_m___encoder___mode.html" title=" " alt="" coords="357,923,500,949"/>
+<area shape="rect" id="node21" href="$d0/d6a/group___t_i_m___event___source.html" title=" " alt="" coords="361,973,496,998"/>
+<area shape="rect" id="node23" href="$d1/dd3/group___t_i_m___flag__definition.html" title=" " alt="" coords="356,1022,501,1047"/>
+<area shape="rect" id="node24" href="$d0/d35/group___t_i_m___input___capture___polarity.html" title=" " alt="" coords="333,1071,525,1097"/>
+<area shape="rect" id="node25" href="$db/d17/group___t_i_m___input___capture___prescaler.html" title=" " alt="" coords="327,1121,530,1146"/>
+<area shape="rect" id="node26" href="$de/dc7/group___t_i_m___input___capture___selection.html" title=" " alt="" coords="327,1170,530,1195"/>
+<area shape="rect" id="node27" href="$db/d7c/group___t_i_m___input___channel___polarity.html" title=" " alt="" coords="331,1219,526,1245"/>
+<area shape="rect" id="node28" href="$de/d41/group___t_i_m___interrupt__definition.html" title=" " alt="" coords="342,1269,515,1294"/>
+<area shape="rect" id="node29" href="$d8/d8a/group___t_i_m___lock__level.html" title=" " alt="" coords="371,1318,487,1343"/>
+<area shape="rect" id="node30" href="$dd/de6/group___t_i_m___master___mode___selection.html" title=" " alt="" coords="329,1367,528,1393"/>
+<area shape="rect" id="node31" href="$df/dba/group___t_i_m___master___slave___mode.html" title=" " alt="" coords="341,1417,516,1442"/>
+<area shape="rect" id="node32" href="$d0/d54/group___t_i_m___o_s_s_i___off___state___selection__for___idle__mode__state.html" title=" " alt="" coords="328,1467,529,1507"/>
+<area shape="rect" id="node33" href="$d9/de3/group___t_i_m___o_s_s_r___off___state___selection__for___run__mode__state.html" title=" " alt="" coords="325,1531,532,1571"/>
+<area shape="rect" id="node34" href="$d4/d0d/group___t_i_m___one___pulse___mode.html" title=" " alt="" coords="351,1595,506,1621"/>
+<area shape="rect" id="node35" href="$db/dd1/group___t_i_m___output___compare___idle___state.html" title=" " alt="" coords="350,1645,507,1685"/>
+<area shape="rect" id="node36" href="$de/d46/group___t_i_m___output___compare___n___idle___state.html" title=" " alt="" coords="327,1709,530,1749"/>
+<area shape="rect" id="node37" href="$dc/ddf/group___t_i_m___output___compare___n___polarity.html" title=" " alt="" coords="327,1773,530,1813"/>
+<area shape="rect" id="node38" href="$de/de0/group___t_i_m___output___compare___n___state.html" title=" " alt="" coords="327,1837,530,1877"/>
+<area shape="rect" id="node39" href="$d1/d89/group___t_i_m___output___compare___polarity.html" title=" " alt="" coords="350,1901,507,1941"/>
+<area shape="rect" id="node40" href="$d9/d82/group___t_i_m___output___compare___state.html" title=" " alt="" coords="350,1965,507,2005"/>
+<area shape="rect" id="node41" href="$d7/dae/group___t_i_m___output___compare__and___p_w_m__modes.html" title=" " alt="" coords="350,2029,507,2069"/>
+<area shape="rect" id="node42" href="$df/d50/group___t_i_m___output___fast___state.html" title=" " alt="" coords="347,2094,510,2119"/>
+<area shape="rect" id="node43" href="$d5/db1/group___t_i_m___slave___mode.html" title=" " alt="" coords="365,2143,492,2169"/>
+<area shape="rect" id="node44" href="$d6/d86/group___t_i_m___t_i1___selection.html" title=" " alt="" coords="343,2193,514,2218"/>
+<area shape="rect" id="node45" href="$dc/d8f/group___t_i_m___trigger___polarity.html" title=" " alt="" coords="355,2242,503,2267"/>
+<area shape="rect" id="node46" href="$d3/d3e/group___t_i_m___trigger___prescaler.html" title=" " alt="" coords="349,2291,508,2317"/>
+<area shape="rect" id="node47" href="$dc/d27/group___t_i_m___trigger___selection.html" title=" " alt="" coords="349,2341,508,2366"/>
+</map>

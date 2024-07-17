@@ -1,0 +1,14 @@
+<map id="PWR Exported Constants" name="PWR Exported Constants">
+<area shape="rect" id="node1" href="$d1/d33/group___p_w_r.html" title="PWR HAL module driver." alt="" coords="5,259,57,284"/>
+<area shape="rect" id="node2" title=" " alt="" coords="105,259,288,284"/>
+<area shape="rect" id="node3" href="$db/dd2/group___p_w_r___flag.html" title=" " alt="" coords="383,5,519,31"/>
+<area shape="rect" id="node4" href="$df/ddd/group___p_w_r___m_r___bias_current___source.html" title=" " alt="" coords="336,55,567,95"/>
+<area shape="rect" id="node5" href="$de/d6f/group___p_w_r___regulator__state__in___s_l_e_e_p___s_t_o_p__mode.html" title=" " alt="" coords="373,120,529,145"/>
+<area shape="rect" id="node6" href="$df/d81/group___p_w_r___s_l_e_e_p__mode__entry.html" title=" " alt="" coords="364,169,539,195"/>
+<area shape="rect" id="node7" href="$d6/d5c/group___p_w_r___s_t_o_p___l_p_r___voltage.html" title=" " alt="" coords="345,219,557,259"/>
+<area shape="rect" id="node8" href="$d8/d75/group___p_w_r___s_t_o_p___wake_up___flash___dealy.html" title=" " alt="" coords="358,283,545,323"/>
+<area shape="rect" id="node9" href="$dd/daa/group___p_w_r___s_t_o_p___wake_up___h_s_i_e_n___timing.html" title=" " alt="" coords="357,347,545,387"/>
+<area shape="rect" id="node10" href="$d9/dc7/group___p_w_r___s_t_o_p___wake_up___regulator___switch___delay.html" title=" " alt="" coords="348,412,555,467"/>
+<area shape="rect" id="node11" href="$dd/d0c/group___p_w_r___s_t_o_p__mode___sram___retention___voltage.html" title=" " alt="" coords="367,491,536,531"/>
+<area shape="rect" id="node12" href="$dd/d35/group___p_w_r___s_t_o_p__mode__entry.html" title=" " alt="" coords="367,556,536,581"/>
+</map>

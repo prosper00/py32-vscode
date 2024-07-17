@@ -1,0 +1,4 @@
+<map id="Freeze Unfreeze Peripherals in Debug mode" name="Freeze Unfreeze Peripherals in Debug mode">
+<area shape="rect" id="node1" title="Freeze/Unfreeze Peripherals in Debug mode Note: Debug registers DBGMCU_IDCODE and DBGMCU_CR are acces..." alt="" coords="215,5,420,45"/>
+<area shape="rect" id="node2" href="$d6/dbd/group___h_a_l___exported___macros.html" title=" " alt="" coords="5,13,167,38"/>
+</map>

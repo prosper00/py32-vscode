@@ -1,0 +1,5 @@
+<map id="RTC_HandleTypeDef" name="RTC_HandleTypeDef">
+<area shape="rect" id="node1" title="Time Handle Structure definition." alt="" coords="70,95,222,121"/>
+<area shape="rect" id="node2" href="$d8/d8e/struct_r_t_c___init_type_def.html" title="RTC Configuration Structure definition." alt="" coords="5,5,132,32"/>
+<area shape="rect" id="node3" href="$d4/d06/struct_r_t_c___date_type_def.html" title="RTC Date structure definition." alt="" coords="156,5,293,32"/>
+</map>

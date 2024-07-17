@@ -1,0 +1,16 @@
+<map id="RCC Exported Macros" name="RCC Exported Macros">
+<area shape="rect" id="node1" href="$df/d5a/group___r_c_c.html" title="RCC HAL module driver." alt="" coords="5,397,55,422"/>
+<area shape="rect" id="node11" title=" " alt="" coords="103,397,265,422"/>
+<area shape="rect" id="node2" href="$d4/ddd/group___r_c_c___a_h_b___force___release___reset.html" title="Force or release AHB1 peripheral reset." alt="" coords="317,5,476,45"/>
+<area shape="rect" id="node3" href="$d3/d00/group___r_c_c___a_h_b___peripheral___clock___enable___disable.html" title="Enable or disable the AHB peripheral clock." alt="" coords="317,69,477,109"/>
+<area shape="rect" id="node4" href="$d1/d00/group___r_c_c___a_h_b___peripheral___clock___enabled___disabled___status.html" title="Check whether the AHB peripheral clock is enabled or not." alt="" coords="317,134,477,189"/>
+<area shape="rect" id="node5" href="$df/d13/group___r_c_c___a_p_b1___clock___enable___disable.html" title="Enable or disable the APB1 peripheral clock." alt="" coords="313,213,480,253"/>
+<area shape="rect" id="node6" href="$d2/d8b/group___r_c_c___a_p_b1___clock___enabled___disabled___status.html" title="Check whether the APB1 peripheral clock is enabled or not." alt="" coords="313,278,480,333"/>
+<area shape="rect" id="node7" href="$d8/d7c/group___r_c_c___a_p_b1___force___release___reset.html" title="Force or release APB1 peripheral reset." alt="" coords="314,357,479,397"/>
+<area shape="rect" id="node8" href="$db/d04/group___r_c_c___a_p_b2___clock___enable___disable.html" title="Enable or disable the APB2 peripheral clock." alt="" coords="313,421,480,461"/>
+<area shape="rect" id="node9" href="$da/de8/group___r_c_c___a_p_b2___clock___enabled___disabled___status.html" title="Check whether the APB2 peripheral clock is enabled or not." alt="" coords="313,486,480,541"/>
+<area shape="rect" id="node10" href="$db/d2f/group___r_c_c___a_p_b2___force___release___reset.html" title="Force or release APB2 peripheral reset." alt="" coords="314,565,479,605"/>
+<area shape="rect" id="node12" href="$d7/db8/group___r_c_c___i_o_p_o_r_t___clock___enable___disable.html" title="Enable or disable the IO Ports clock." alt="" coords="317,629,476,669"/>
+<area shape="rect" id="node13" href="$dc/dc7/group___r_c_c___i_o_p_o_r_t___clock___enabled___disabled___status.html" title="Check whether the IO Port clock is enabled or not." alt="" coords="313,693,480,733"/>
+<area shape="rect" id="node14" href="$d4/dc8/group___r_c_c___i_o_p_o_r_t___force___release___reset.html" title="Force or release IO Port reset." alt="" coords="314,757,479,797"/>
+</map>

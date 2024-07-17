@@ -1,0 +1,12 @@
+<map id="RTC Exported Constants" name="RTC Exported Constants">
+<area shape="rect" id="node1" href="$d9/dfc/group___r_t_c.html" title="RTC HAL module driver." alt="" coords="5,195,52,220"/>
+<area shape="rect" id="node4" title=" " alt="" coords="100,195,277,220"/>
+<area shape="rect" id="node2" href="$de/d24/group___r_t_c___alarms___definitions.html" title=" " alt="" coords="357,5,499,31"/>
+<area shape="rect" id="node3" href="$dc/d0c/group___r_t_c___automatic___prediv__1___second.html" title=" " alt="" coords="325,55,531,95"/>
+<area shape="rect" id="node5" href="$d7/d51/group___r_t_c___flags___definitions.html" title=" " alt="" coords="363,120,493,145"/>
+<area shape="rect" id="node6" href="$dc/d4e/group___r_t_c___input__parameter__format__definitions.html" title=" " alt="" coords="340,169,516,195"/>
+<area shape="rect" id="node7" href="$d8/d0b/group___r_t_c___interrupts___definitions.html" title=" " alt="" coords="349,219,507,244"/>
+<area shape="rect" id="node8" href="$d7/d14/group___r_t_c___month___date___definitions.html" title=" " alt="" coords="359,268,497,293"/>
+<area shape="rect" id="node9" href="$d4/d4c/group___r_t_c___week_day___definitions.html" title=" " alt="" coords="349,317,507,343"/>
+<area shape="rect" id="node10" href="$dd/d37/group___r_t_c__output__source__to__output__pin.html" title=" " alt="" coords="328,367,528,392"/>
+</map>
